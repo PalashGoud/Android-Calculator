@@ -1,13 +1,124 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.Main-new-calculator{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0FBEFF;
+}
+.phone-new-calculator{
+  height: 93vh;
+  width:23%;
+  border-radius:40px;
+  border: 5px solid #474942; 
+  background-color: #221E1F;
+  
+}
+.Container-new-0{
+  height: 10%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20%;
+  padding-left: 9%;
+}
+.N-C-circle{
+  height: 1vh;
+  width: 1vh;
+  background-color: black;
+  border: 2px solid #564D50;
+  border-radius: 50%;
+}
+.N-C-bar{
+  height: 1vh;
+  width: 15vh;
+  background-color: #564D50;
+  border-radius: 20px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Container-new2-calculator{
+  height: 5%;
+  width: 100%;
+  background-color: #01B9D2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  color: white;
+  box-sizing: border-box;
 }
+.Container-new-calculator{
+  height: 25%;
+  width: 100%;
+  background-color: white;
+  color: grey;
+ text-align: right; 
+ font-size: 40px;
+ 
+ 
+ 
+}
+.Container2-new-calculator{
+  height: 50%;
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Container-new-3{
+  height: 10%;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 30%;
+  margin-left: 10%;
+}
+.new-calci-icon-1 {
+  font-size: 33px;
+}
+.inner-container-2{
+height: 100%;
+width: 70%;
+}
+.inner1-container-2{
+  height: 100%;
+  width:22%;
+  }
+  .inner2-container-2{
+    height: 100%;
+    background-color: #1EE8B7;
+    width: 8%;
+    }
+.buttons-new-calculator{
+  width: 100%;
+  height: 25%;
+}
+.N1{
+  height: 100%;
+  width: 33.33333%;
+  font-size: 25px;
+  background-color: #323232;
+  color: white;
+  border: none;
+}
+.buttons-new2-calculator{
+  width: 100%;
+  height: 100%;
+}
+.N2{
+  height: 20%;
+  width: 100%;
+  font-size: 20px;
+  background-color: grey;
+  color: white;
+  border: none;
+}
+
